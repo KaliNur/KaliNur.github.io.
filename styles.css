@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Sidebar Styling */
+header {
+    width: 250px;
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+header .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+header .profile img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+header .profile h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #34495E;
+    padding-left: 10px;
+}
+
+/* Main Content */
+main {
+    margin-left: 250px;
+    width: 100%;
+    padding: 40px;
+    background-color: #ECF0F1;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    font-size: 36px;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+}
+
+#about p {
+    font-size: 20px;
+    color: #7F8C8D;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Portfolio Section */
+#portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-item {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #34495E;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Contact Section */
+#contact a {
+    text-decoration: none;
+    color: #2C3E50;
+    font-weight: bold;
+}
