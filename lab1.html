@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive portfolio website">
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="pics/free-logo-design-templates-of-13-vector-files-logos-free-vector-logos-eps-file-of-free-logo-design-templates.webp" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#math">Math</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Welcome to my portfolio! I am a passionate developer and designer.</p>
+    </section>
+
+    <section id="services">
+        <h1>Services</h1>
+        <video controls>
+            <source src="media/12159718_2160_3840_30fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XcV3rLSbY8E?list=RDXcV3rLSbY8E" title="The Pixies - Where Is My Mind (Retrowave Synthwave cover by The Motion)" allowfullscreen></iframe>
+        <audio controls>
+            <source src="media/Xmas_Bells.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+    </section>
+
+    <section id="portfolio">
+        <h1>Portfolio</h1>
+        <img src="pics/Warwick_0.jpg" alt="Project 1">
+        <img src="pics/down_syndrome.avif" alt="Project 2">
+        <svg id="svg-graphic" width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+            <circle id="interactive-circle" cx="150" cy="150" r="100" fill="lightblue" stroke="darkblue" stroke-width="5" />
+            <text id="svg-text" x="150" y="160" font-size="20" text-anchor="middle" fill="darkblue">Hover Me!</text>
+        </svg>
+    </section>
+
+    <section id="math">
+        <h1>Mathematics Example</h1>
+        <p>The following formula demonstrates a complex integral:</p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="math-inline">
+            <mi>f</mi>
+            <mo>(</mo>
+            <mi>a</mi>
+            <mo>)</mo>
+            <mo>=</mo>
+            <mfrac>
+                <mn>1</mn>
+                <mrow>
+                    <mn>2</mn>
+                    <mi>&#x3C0;</mi>
+                    <mi>i</mi>
+                </mrow>
+            </mfrac>
+            <mo>&#x222E;</mo>
+            <mfrac>
+                <mrow>
+                    <mi>f</mi>
+                    <mo>(</mo>
+                    <mi>z</mi>
+                    <mo>)</mo>
+                </mrow>
+                <mrow>
+                    <mi>z</mi>
+                    <mo>-</mo>
+                    <mi>a</mi>
+                </mrow>
+            </mfrac>
+            <mi>d</mi>
+            <mi>z</mi>
+        </math>
+    </section>
+
+    <section id="resume">
+        <h1>Resume</h1>
+        <p>Details about my professional journey and skills.</p>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Form</h1>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+            
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea><br>
+            
+            <!-- Numeric Attributes -->
+            <label for="attribute1">Attribute 1:</label>
+            <input type="number" id="attribute1" name="attribute1" required><br>
+            
+            <label for="attribute2">Attribute 2:</label>
+            <input type="number" id="attribute2" name="attribute2" required><br>
+            
+            <label for="attribute3">Attribute 3:</label>
+            <input type="number" id="attribute3" name="attribute3" required><br>
+            
+            <label for="attribute4">Attribute 4:</label>
+            <input type="number" id="attribute4" name="attribute4" required><br>
+            
+            <label for="attribute5">Attribute 5:</label>
+            <input type="number" id="attribute5" name="attribute5" required><br>
+            
+            <button type="button" id="saveButton">Save</button>
+        </form>
+
+        <div id="results"></div>
+    </section>
+
+    <footer>
+        <p>Created by [Your Name] | <a href="https://github.com/yourusername">GitHub</a></p>
+        <div class="social-media">
+            <a href="https://facebook.com"><img src="pics/Logo_de_Facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="pics/Twitter-X-Logo-Vector-01-2.jpg" alt="Twitter"></a>
+            <a href="https://linkedin.com"><img src="pics/Linkedin-Emblem.png" alt="LinkedIn"></a>
+        </div>
+    </footer>
+
+    <button id="scrollToTop">Top</button>
+    <script src="functions.js"></script>
+</body>
+</html>
+
+
+
