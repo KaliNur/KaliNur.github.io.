@@ -7,7 +7,6 @@ body {
    color: #333;
 }
 
-
 /* MathML Styling */
 .math-inline {
    display: inline;
@@ -15,7 +14,6 @@ body {
    margin: 0;
    border: none;
 }
-
 
 /* Header */
 header {
@@ -30,12 +28,10 @@ header {
    z-index: 1000;
 }
 
-
 header .logo img {
    max-width: 70px;
    height: 70px;
 }
-
 
 /* Navigation */
 nav ul {
@@ -43,7 +39,6 @@ nav ul {
    display: flex;
    gap: 1.5rem;
 }
-
 
 nav ul li a {
    color: #fff;
@@ -53,12 +48,10 @@ nav ul li a {
    font-weight: bold;
 }
 
-
 nav ul li a:hover {
    background-color: #555;
    border-radius: 5px;
 }
-
 
 /* Section Styles */
 section {
@@ -68,10 +61,9 @@ section {
    text-align: center;
 }
 
-
 /* Portfolio Images */
 #portfolio img {
-   max-width: 500px; /* Adjusted to previous size */
+   max-width: 500px; /* Adjusted size */
    height: 600px;
    margin: 10px;
    border: 2px solid #ccc;
@@ -79,23 +71,59 @@ section {
    transition: transform 0.3s;
 }
 
-
 #portfolio img:hover {
    transform: scale(1.05);
    border-color: #333;
 }
 
-
 /* Services Section: Video */
 #services video {
-   max-width: 600px; /* Adjusted to previous size */
+   max-width: 600px; /* Adjusted size */
    width: 100%;
-   height: 450px; /* Original height restored */
+   height: 450px; /* Restored height */
    margin: 20px auto;
    border: 2px solid #ccc;
    border-radius: 5px;
 }
 
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    gap: 1rem; /* Spacing between form elements */
+    max-width: 500px; /* Set max width */
+    margin: 0 auto; /* Center form horizontally */
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    width: 100%; /* Make inputs span the full width of the form */
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+form button {
+    align-self: center; /* Center the button horizontally */
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #555;
+}
 
 /* Footer Bar */
 footer {
@@ -105,11 +133,9 @@ footer {
    text-align: center; /* Aligns all footer content to the center */
 }
 
-
 footer p {
    margin: 0; /* Removes unnecessary spacing around the text */
 }
-
 
 footer .social-media {
    display: flex;
@@ -118,25 +144,21 @@ footer .social-media {
    gap: 15px;
 }
 
-
 footer .social-media img {
    width: 32px; /* Adjusted to previous size */
    height: 32px;
    transition: transform 0.3s;
 }
 
-
 footer .social-media img:hover {
    transform: scale(1.2);
 }
-
 
 /* SVG Circle Hover */
 #interactive-circle:hover {
    fill: lightgreen;
    cursor: pointer;
 }
-
 
 /* Scroll-to-Top Button */
 #scrollToTop {
@@ -152,11 +174,9 @@ footer .social-media img:hover {
    font-size: 14px;
 }
 
-
 #scrollToTop:hover {
    background-color: #555;
 }
-
 
 /* Theme Toggle Button */
 #toggleTheme {
@@ -170,7 +190,6 @@ footer .social-media img:hover {
    border-radius: 5px;
    cursor: pointer;
 }
-
 
 #toggleTheme:hover {
    background-color: #555;
