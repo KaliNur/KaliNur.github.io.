@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Thermometer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Thermometer</h1>
+        <div class="thermometer">
+            <div class="thermometer-level" id="thermo-level"></div>
+        </div>
+        <div class="controls">
+            <input type="range" id="temp-slider" min="0" max="100" value="20" step="1">
+            <p>Temperature: <span id="temp-display">20°C</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
